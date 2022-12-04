@@ -1,0 +1,9 @@
+country_id,city,car_model,quantity
+100,Fremont,Honda Civic,10
+100,Fremont,Honda Accord,15
+100,Fremont,Honda CRV,7
+200,Dublin,Honda Civic,20
+200,Dublin,Honda Accord,10
+200,Dublin,Honda CRV,3
+300,San Jose,Honda Civic,5
+300,San Jose,Honda Accord,8
