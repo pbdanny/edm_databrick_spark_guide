@@ -23,7 +23,7 @@ ss = SparkSession.builder.appName("helper").getOrCreate()
 """
 Read .csv as SparkDataFrame
 """
-sf = spark.read.csv( "/FileStore/Udamy_training/sales_info.csv", header=True, inferSchema=True)
+sf = spark.read.csv("/FileStore/Udamy_training/sales_info.csv", header=True, inferSchema=True)
 
 # COMMAND ----------
 
