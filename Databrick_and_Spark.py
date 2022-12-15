@@ -29,7 +29,7 @@
 # MAGIC 3. Always filter with desired data range based on partition for better performance.
 # MAGIC 4. Beware of joining key with `NULL` : better salting or split join then combine.
 # MAGIC 5. Create small SparkDataFrame for code testing.
-# MAGIC 5. Duplicate join key will yield duplication (including `Left join`, different from other SQL like Oracle etc.). Better `drop_duplicates()` when ever possible.
+# MAGIC 5. Duplicate join key will yield duplication (including `Left join`, different from other SQL like Oracle etc.). Better `drop_duplicates()` whenever possible.
 
 # COMMAND ----------
 
@@ -222,4 +222,4 @@ car_join_df.to_csv("/dbfs/FileStore/thanakrit/temp/to_export/car_join_df.csv")
 
 # COMMAND ----------
 
-# MAGIC %md then use stop 2) - 4) from above to load to local
+# MAGIC %md then use step 2) - 4) from above to load to local
